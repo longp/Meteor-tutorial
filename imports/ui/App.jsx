@@ -4,7 +4,7 @@ import { createContainer } from 'meteor/react-meteor-data';
 
 import { Tasks } from '../api/tasks.js'
 import Task from './Task.jsx';
-
+import AccountsUIWrapper from './AccountsUIWrapper.jsx'
 
 // App component - represents the whole app
 class App extends Component {
